@@ -1,4 +1,4 @@
-FROM percona/percona-pgbouncer:1.25.2
+FROM percona/percona-pgbouncer:1.26.1
 
 # Add custom entrypoint script
 COPY --chown=pgbouncer:pgbouncer entrypoint-wrapper.sh /entrypoint-wrapper.sh
