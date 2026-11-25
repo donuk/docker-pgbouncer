@@ -1,5 +1,7 @@
 # donuk/pgbouncer
 
+Also on docker hub https://hub.docker.com/repository/docker/donuk/pgbouncer/
+
 A container for running PgBouncer, aimed at allowing full configuration via environment variables. This image wraps the official [percona/percona-pgbouncer](https://hub.docker.com/r/percona/percona-pgbouncer) image and lets you set any `[pgbouncer]` option in `pgbouncer.ini` through environment variables.
 
 ## Features
